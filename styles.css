@@ -149,24 +149,67 @@ nav h2 {
 
 }
 
-.btn-see{
+.btn-see {
     color: #E02C6D;
     font-size: 16px;
     font-weight: 700;
     border: none;
     cursor: pointer;
-   
+    margin-top: 50px;
+
 
 }
 
-:hover .card-body{
-background: #ff4086;
-transition-duration: 10s;
+:hover .card-body {
+    background: #ff4086;
+    transition-duration: 10s;
 
-  
+
+}
+
+/* featured */
+.Featured {
+    display: flex;
+    gap: 120px;
+    margin-top: 200px;
+    align-items: center;
 }
 
 
+
+.Featured h2 {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.Join {
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+
+
+footer {
+    margin-top: 60px;
+    background: #0A0826;
+    height: 239px;
+    color: #FFF;
+    text-align: center;
+    padding: 60px;
+
+}
 
 
 
@@ -205,14 +248,15 @@ transition-duration: 10s;
     }
 
 
-  .all-card , .btn-see {
-    align-items: center;
-    grid-template-columns: 1fr;
+    .all-card,
+    .btn-see {
+        align-items: center;
+        grid-template-columns: 1fr;
 
-justify-items: center;
-   
+        justify-items: center;
 
-}
+
+    }
 
 
 
@@ -228,4 +272,22 @@ justify-items: center;
 
     }
 
+
+    .Featured {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Featured h2 {
+
+        text-align: center;
+    }
+
+    .Featured-desk {
+
+        text-align: center;
+        align-items: center;
+    }
 }
